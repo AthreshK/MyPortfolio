@@ -32,7 +32,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url(/dist/img/IMG_0649-01.jpeg);
+      background: url(img/IMG_0649-01.jpeg);
       background-size: cover;
       border-radius: 50%;
       border: solid 3px cyan; }
@@ -598,7 +598,9 @@ main {
   padding: 20px;
   display: grid;
   grid-gap: 40px;
-  grid-template-areas: "bio bio" "text-secondary text-secondary" "skills1 skills2";
+  grid-template-areas: "bio bio"
+ "text-secondary text-secondary"
+ "skills1 skills2";
   grid-template-columns: 1fr 1fr; }
 
 .bio {
@@ -672,7 +674,10 @@ main {
       height: 150px; }
   .about-info {
     grid-gap: 10px;
-    grid-template-areas: "bio" "text-secondary" "skills1" "skills2";
+    grid-template-areas: "bio"
+ "text-secondary"
+ "skills1"
+ "skills2";
     grid-template-columns: 1fr; }
   .project-card {
     flex-direction: column;

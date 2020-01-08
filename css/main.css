@@ -153,7 +153,6 @@
 @keyframes name {
   0% {
     width: 0; } }
-
 .hide {
   visibility: hidden; }
 
@@ -298,7 +297,6 @@
 
 .direction-r .desc {
   margin: 1em 0 0 0.75em; }
-
 @media screen and (max-width: 660px) {
   .timeline {
     width: 100%;

@@ -280,6 +280,12 @@
   color: cyan;
   vertical-align: middle; }
 
+.direction-l .desc h4 {
+  text-align: right; }
+
+.direction-l .desc {
+  text-align: left; }
+
 .direction-l .time-wrapper {
   float: left; }
 
@@ -310,6 +316,12 @@
     float: none;
     width: 100%;
     text-align: center; }
+  .direction-l .desc h4,
+  .direction-r .desc h4 {
+    text-align: center; }
+  .direction-l .desc,
+  .direction-r .desc {
+    text-align: left; }
   .flag-wrapper {
     text-align: center; }
   .flag {
@@ -610,7 +622,7 @@ main {
   padding: 20px;
   display: grid;
   grid-gap: 40px;
-  grid-template-areas: "bio bio" "text-secondary text-secondary" "skills1 skills2";
+  grid-template-areas: "bio bio" "text-secondary text-secondary" "skills1 skills2";
   grid-template-columns: 1fr 1fr; }
 
 .bio {
@@ -684,7 +696,7 @@ main {
       height: 150px; }
   .about-info {
     grid-gap: 10px;
-    grid-template-areas: "bio" "text-secondary" "skills1" "skills2";
+    grid-template-areas: "bio" "text-secondary" "skills1" "skills2";
     grid-template-columns: 1fr; }
   .project-card {
     flex-direction: column;
